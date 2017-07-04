@@ -15,9 +15,16 @@
     </properties>
 
     <dependencies>
+        <!--spring boot основная зависимость-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!--подключение шаблонизатора-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <version>${spring.version}</version>
         </dependency>
     </dependencies>
